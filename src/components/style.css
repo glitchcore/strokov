@@ -108,6 +108,7 @@ header nav a:hover {
 }
 
 main {
+  font-size: 1.4em;
   padding: 20px;
   flex: 1;
 }
