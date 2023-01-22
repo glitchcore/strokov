@@ -1,0 +1,56 @@
+:root {
+  --black-color: #230205;
+  --grey-color: #909380;
+  --white-color: #f2f3f2;
+  --green-color: #00cd8c;
+  --orange-color: #fea503;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  background-color: var(--white-color);
+}
+
+header {
+  display: flex;
+  align-items: stretch;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  margin: 0.3em;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--grey-color);
+  
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  color: var(--white-color);
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}
+
+main {
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+}
