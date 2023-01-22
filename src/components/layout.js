@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <Header />
       <main>{children}</main>
       <footer>
-        <p>Have a nice day!</p>
+        <p className="footer">truly yours // Andrew Strokov</p>
       </footer>
     </div>
   )
