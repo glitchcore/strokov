@@ -22,14 +22,29 @@ const Page = () => {
   return (
     <Layout>
       <div style={{textAlign:"right"}}>
-        <p>Welcome to my page, i'm</p>
+        <span style={{marginLeft:"50%", background: "white"}}>Welcome to my page, i'm</span>
         <h1>Andrew Strokov</h1>
-        <p>This is where you can learn more about me.</p>
+        <br/>
+        <div style={{marginLeft:"30%"}}>
+          <span style={{
+            background: "white",
+            lineHeight: 1.5,
+            paddingTop: "0.2em",
+            paddingBottom: "0.2em",
+            paddingLeft: "0.5em"
+          }}>
+          I am an engineer, developer, and artist working at the intersection of technology and art.
+          I strive to create solutions that are both thoughtful and user-friendly, designed to empower people
+          to achieve their goals.
+          As a developer, I am passionate about developing cutting-edge technology and making it accessible and 
+          understandable for people. I specialize in creating interactive artwork, electronic devices and 
+          web development. Thank you for visiting my website!</span>
+        </div>
         <Img 
           style={{ 
             position: "absolute",
-            bottom: 41,
-            left: 0,
+            bottom: 120,
+            left: 75,
             width: "20%",
             objectFit: "cover",
             margin: "0em"
