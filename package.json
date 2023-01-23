@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "strokov-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Andrew Strokov personal site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andrew Strokov <mail@s3f.ru>",
+  "homepage": "https://glitchcore.github.io/strokov/",
   "dependencies": {
     "gatsby": "^5.4.2",
     "gatsby-image": "^3.11.0",
