@@ -92,6 +92,27 @@ header nav a:hover {
   margin-left: 0.1em;*/
 }
 
+a.link-light:hover {
+  background-color: var(--white-color);
+  color: var(--green-color);
+}
+a.link-dark:hover {
+  background-color: var(--dark-gray-color);
+  color: var(--orange-color);
+}
+.header-link-active {
+  background-color: var(--light-gray-color);
+  color: var(--gray-color);
+}
+.header-link-dark-active {
+  background-color: var(--dark-gray-color);
+  color: var(--orange-color);
+}
+.header-link-light-active {
+  background-color: var(--white-color);
+  color: var(--green-color);
+}
+
 .footer {
   background-color: var(--gray-color);
   color: var(--light-gray-color);
