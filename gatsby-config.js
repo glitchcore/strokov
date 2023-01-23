@@ -9,11 +9,12 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Strokov`,
+    description: `Andrew Strokov homepage`,
+    author: `@coreglitch`,
+    siteUrl: `https://glitchcore.github.io/strokov/`,
   },
+  pathPrefix: `/strokov`,
   plugins: [
     `gatsby-plugin-image`,
     {
@@ -30,7 +31,7 @@ module.exports = {
       options: {
         name: "Strokov personal website",
         short_name: "Strokov",
-        start_url: `/`,
+        start_url: `/strokov`,
         icon: "src/images/icons/favicon-32x32.png",
         include_favicon: true,
         icons: [

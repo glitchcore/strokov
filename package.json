@@ -4,7 +4,6 @@
   "description": "Andrew Strokov personal site",
   "version": "0.1.0",
   "author": "Andrew Strokov <mail@s3f.ru>",
-  "homepage": "https://glitchcore.github.io/strokov/",
   "dependencies": {
     "gatsby": "^5.4.2",
     "gatsby-image": "^3.11.0",
@@ -24,7 +23,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
