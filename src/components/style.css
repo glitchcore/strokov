@@ -2,7 +2,7 @@
   --black-color: #230205;
   --gray-color: #7b7e6d;
   --light-gray-color: #e0e0e0;
-  --dark-gray-color: #564949;
+  --dark-gray-color: #7e7070;
   --white-color: #f2f3f2;
   --green-color: #00cd8c;
   --orange-color: #fea503;
@@ -34,7 +34,16 @@ h1 {
   flex-wrap: nowrap;
   flex-direction: column;
   min-height: 100vh;
+
   background-color: var(--light-gray-color);
+}
+
+.layout-light {
+  background-color: var(--white-color);
+}
+
+.layout-dark {
+  background-color: var(--dark-gray-color);
 }
 
 header {

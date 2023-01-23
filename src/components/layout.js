@@ -2,9 +2,9 @@ import React from "react"
 import Header from "./header"
 import "./style.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   return (
-    <div className="layout">
+    <div className={`layout ${className}`}>
       <Header />
       <main>{children}</main>
       <footer>
