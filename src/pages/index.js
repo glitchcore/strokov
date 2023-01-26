@@ -17,7 +17,7 @@ const Page = () => {
         </div>
         <div className={"bio-right"}>
           <p>Welcome to my page, i'm</p>
-          <p>Andrew Strokov</p>
+          <h1>Andrew Strokov</h1>
           <p>
             I am an engineer, developer, and artist working at the intersection of technology and art.
             I strive to create solutions that are both thoughtful and user-friendly, designed to empower people
