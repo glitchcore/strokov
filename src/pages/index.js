@@ -1,10 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
-import { useImage } from 'gatsby-plugin-image'
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
-
-import photo from "../images/main_photo.png"
 
 import "./index.css"
 
@@ -13,7 +11,8 @@ const Page = () => {
     <Layout>
       <div className={"bio-container"}>
         <div className={"bio-left"}>
-          <img class="bio-image" src={photo} alt="Your Image" />
+          <StaticImage src="../images/main_photo.png" alt="main photo" />
+          {/*<img class="bio-image" src={photo} alt="Your Image" />*/}
         </div>
         <div className={"bio-right"}>
           <p>Welcome to my page, i'm</p>
