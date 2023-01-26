@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: start;
   width: 35%;
-  padding-left: 2em;
+  padding-left: 2.4em;
+  height: 100%;
 }
 /* Right block styles */
 .bio-right {
